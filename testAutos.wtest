@@ -1,0 +1,9 @@
+import dominic.*
+
+describe "test de Dominic" {
+
+  test "la Velocidad maxima del ferrari es 125" {
+    assert.equals(125, ferrari.velocidadMaxima())
+  }
+
+}
